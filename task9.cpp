@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+main()
+{
+int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o;
+int res,add,pro,sub,result;
+cout<<"Enter 1st digit: "<<endl;
+cin>>a;
+cout<<"Enter 2nd digit: "<<endl;
+cin>>b;
+cout<<"Enter 3rd digit: "<<endl;
+cin>>c;
+cout<<"Enter 4th digit: "<<endl;
+cin>>d;
+cout<<"Enter 5th digit: "<<endl;
+cin>>e;
+cout<<"Enter 6th digit: "<<endl;
+cin>>f;
+cout<<"Enter 7th digit: "<<endl;
+cin>>g;
+cout<<"Enter 8th digit: "<<endl;
+cin>>h;
+cout<<"Enter 9th digit: "<<endl;
+cin>>i;
+cout<<"Enter 10th digit: "<<endl;
+cin>>j;
+cout<<"Enter 11th digit: "<<endl;
+cin>>k;
+cout<<"Enter 12th digit: "<<endl;
+cin>>l;
+cout<<"Enter 13th digit: "<<endl;
+cin>>m;
+cout<<"Enter 14th digit: "<<endl;
+cin>>n;
+cout<<"Enter 15th digit: "<<endl;
+cin>>o;
+add=a+b+c+d+e;
+pro=f*g*h*i*j;
+sub=k-l-m-n-o;
+res=add+pro;
+result=res-sub;
+cout<<"Result: "<<res;
+}

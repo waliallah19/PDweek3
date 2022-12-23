@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+main()
+{
+float a,b,c,d,e,costp,costsq;
+cout<<"Enter the bag size in pounds: ";
+cin>>a;
+cout<<"Enter the cost of the bag: ";
+cin>>b;
+cout<<"Area coverd by each bag in square feet: ";
+cin>>c;
+costp=a/b;
+costsq=c/b;
+cout<<"Cost of fertilizer per pound: "<<costp;
+cout<<"Cost of fertilizing per square feet: "<<costsq;
+}
